@@ -35,7 +35,7 @@ export default function Navbar() {
         {/* Logo com efeito gradient */}
         <div className="relative group">
           <h1 className="text-2xl font-bold bg-gradient-to-r from-[#7F4DFF] via-[#9D6FFF] to-[#B794FF] bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 cursor-pointer">
-            GustaDev
+            ORBSPACE
           </h1>
           <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-[#7F4DFF] to-[#B794FF] group-hover:w-full transition-all duration-300"></div>
         </div>

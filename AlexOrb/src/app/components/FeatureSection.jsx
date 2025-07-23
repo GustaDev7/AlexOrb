@@ -1,45 +1,45 @@
-import { FaLaptopCode, FaUsers, FaHeadset, FaCalendarCheck, FaCheckCircle, FaSlidersH } from "react-icons/fa";
+import { FaUserTie, FaRocket, FaCogs, FaChartLine, FaClock, FaShieldAlt } from "react-icons/fa";
 
 const features = [
   { 
-    icon: <FaLaptopCode className="text-cyan-400 text-4xl drop-shadow-[0_0_20px_#00FFFF]" />, 
-    title: "Seus Clientes Usam Celular, Seu Site Também", 
-    description: "Mais de 70% das vendas online acontecem no mobile. Se seu site não funciona no celular, você está perdendo dinheiro todo dia.",
+    icon: <FaUserTie className="text-cyan-400 text-4xl drop-shadow-[0_0_20px_#00FFFF]" />, 
+    title: "Equipe Liberada Para o Estratégico", 
+    description: "Seus colaboradores param de perder tempo com tarefas repetitivas e passam a focar no que realmente gera receita: relacionamento com clientes, estratégia e crescimento do negócio.",
     gradient: "from-cyan-500/20 to-blue-500/20",
     neonColor: "cyan"
   },
   { 
-    icon: <FaUsers className="text-purple-400 text-4xl drop-shadow-[0_0_20px_#8B5CF6]" />, 
-    title: "Nunca Mais Fique Na Mão Com Problemas Técnicos", 
-    description: "Enquanto outros te abandonam depois da entrega, nós cuidamos do seu site como se fosse nosso. Suporte real quando você precisar.",
+    icon: <FaRocket className="text-purple-400 text-4xl drop-shadow-[0_0_20px_#8B5CF6]" />, 
+    title: "Follow-up Automático Que Nunca Falha", 
+    description: "Sistema inteligente que acompanha cada lead automaticamente, com sequências personalizadas de mensagens, lembretes e nutrição até a conversão. Zero leads esquecidos.",
     gradient: "from-purple-500/20 to-violet-500/20",
     neonColor: "purple"
   },
   { 
-    icon: <FaHeadset className="text-lime-400 text-4xl drop-shadow-[0_0_20px_#32D74B]" />, 
-    title: "Você Participa De Cada Decisão Do Seu Projeto", 
-    description: "Sem surpresas, sem 'foi isso que entendi'. Conversamos toda semana para garantir que está saindo exatamente como você sonhou.",
+    icon: <FaCogs className="text-lime-400 text-4xl drop-shadow-[0_0_20px_#32D74B]" />, 
+    title: "Processos Padronizados e Otimizados", 
+    description: "Workflows automatizados que garantem que cada tarefa seja executada sempre da mesma forma, no tempo certo, por quem precisa fazer. Fim do retrabalho e da confusão.",
     gradient: "from-lime-500/20 to-green-500/20",
     neonColor: "lime"
   },
   { 
-    icon: <FaCalendarCheck className="text-cyan-400 text-4xl drop-shadow-[0_0_20px_#00FFFF]" />, 
-    title: "Credibilidade Automática", 
-    description: "Criamos páginas que passam credibilidade e profissionalismo. Cada detalhe pensado para transmitir confiança ao seu visitante.",
+    icon: <FaChartLine className="text-cyan-400 text-4xl drop-shadow-[0_0_20px_#00FFFF]" />, 
+    title: "Escalabilidade Sem Aumentar Custos", 
+    description: "Atenda 3x mais clientes com a mesma equipe. Automação permite crescer receita sem multiplicar folha de pagamento, benefícios e custos de gerenciamento.",
     gradient: "from-cyan-500/20 to-blue-500/20",
     neonColor: "cyan"
   },
   { 
-    icon: <FaCheckCircle className="text-lime-400 text-4xl drop-shadow-[0_0_20px_#32D74B]" />, 
-    title: "Único Como Seu Negócio", 
-    description: "Chega de parecer igual aos concorrentes. Criamos uma identidade visual que faz seus clientes lembrarem só de você.",
+    icon: <FaClock className="text-lime-400 text-4xl drop-shadow-[0_0_20px_#32D74B]" />, 
+    title: "Resposta Instantânea Para Cada Lead", 
+    description: "Sistema responde novos leads em menos de 60 segundos, 24h por dia. Aproveite os 80% de conversão que você está perdendo por demorar para responder.",
     gradient: "from-lime-500/20 to-green-500/20",
     neonColor: "lime"
   },
   { 
-    icon: <FaSlidersH className="text-purple-400 text-4xl drop-shadow-[0_0_20px_#8B5CF6]" />, 
-    title: "Pensado Para Você", 
-    description: "Cada funcionalidade pensada especialmente para o seu cliente. Não vendemos sites, vendemos soluções para o seu negócio.",
+    icon: <FaShieldAlt className="text-purple-400 text-4xl drop-shadow-[0_0_20px_#8B5CF6]" />, 
+    title: "Controle Total e Previsibilidade", 
+    description: "Dashboards em tempo real mostram exatamente onde está cada processo, quantos leads entraram, converteram e qual o ROI de cada ação automática.",
     gradient: "from-purple-500/20 to-violet-500/20",
     neonColor: "purple"
   },
@@ -56,15 +56,15 @@ export default function FeaturesSection() {
       
       <div className="relative z-10 flex flex-col items-center justify-center">
         {/* Título da Seção */}
-        <div className="text-center mb-16 max-w-3xl mx-auto px-4">
+        <div className="text-center mb-16 max-w-4xl mx-auto px-4">
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-            Seu Concorrente Já Tem Um Site Profissional.{" "}
-            <span className="bg-gradient-to-r from-cyan-400 to-purple-400  bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,255,0.3)]">
-              E Você?
+            Como a Automação Transforma Cada um Desses Problemas em{" "}
+            <span className="text-cyan-400">
+              Vantagem Competitiva
             </span>
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Pare de perder clientes para quem investiu em presença digital. Desenvolvemos sites que transmitem confiança e profissionalismo.
+          <p className="text-gray-400 text-lg max-w-3xl mx-auto">
+            Veja o que acontece quando você para de fazer tudo manualmente:
           </p>
         </div>
        
